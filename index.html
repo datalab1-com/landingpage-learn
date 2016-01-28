@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>PageLab - Online Education</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+<style>
+	
+	.navbar-brand {
+		font-size: 1.8em;
+	}
+	
+	#topContainer {
+		background-image: url("background.jpg");
+		background-size: cover;
+		background-position: center;		
+		min-height: 450px;
+		width: 100%;
+	}
+	
+	#topRow {
+		text-align: center;
+		margin-top: 100px;
+	}
+	
+	.marginTop {
+		margin-top: 20px;
+	}
+
+	.header h1 {
+	  text-shadow:
+	   -1px -1px 0 #fff,  
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		 1px 1px 0 #fff;	
+	}
+
+	.header h2 {
+	  text-shadow:
+	   -1px -1px 0 #fff,  
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		 1px 1px 0 #fff;	
+	}
+	
+/* responsive text queries */
+@media all and (min-width: 992px) {
+
+  h1 {
+    font-size: 4em;  
+	font-weight: bold;
+	xcolor: purple;
+  }
+  h2 {
+	font-weight: bold;
+    font-size: 3em;  
+  }
+  
+  .btn-lg {
+	font-size: 2.5em;
+	width: 40%;
+  }
+  
+	#topRow {
+		text-align: center;
+		margin-top: 70px;
+	}
+  
+}
+
+@media all and (max-width: 992px) {
+
+  h1 {
+    font-size: 3em;  
+	font-weight: bold;
+	xcolor: green;
+  }
+
+   h2 {
+	font-weight: bold;
+    font-size: 2em;  
+  }
+  
+  .btn-lg {
+	font-size: 2em;
+	width: 40%;
+  }  
+  
+	#topRow {
+		text-align: center;
+		margin-top: 50px;
+	}
+  
+}
+
+@media all and (max-width: 768px) {
+
+   h1 {
+    font-size: 2em;
+	font-weight: bold;
+	xcolor: red;
+  }
+   h2 {
+    font-size: 1.5em;
+	font-weight: bold;
+  }
+
+  .btn-lg {
+	font-size: 1.5em;
+	width: 45%;
+	min-width: 250px;
+  }   
+
+	#topRow {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+}	
+	
+	.marginTop2{
+		margin-top: 30px;
+	}
+
+	.marginBottom {
+		margin-bottom: 30px;
+	}
+	
+	.contentContainer {
+		min-height: 500px;
+		padding: 30px;
+	}
+			
+	.center {
+		text-align: center;
+	}
+	
+	.title {
+		margin: 30px 0;
+		xfont-size: 3em;
+	}
+	
+	#section2 {
+		background-color: #FFDA2F;
+	}
+	
+	#section3 {
+		background-color: #3F98FD;
+	}
+
+	#section3 h1 {
+		color: white;
+	}
+	
+	#footer {
+		background-color: #292929;
+	}
+	
+	#footerContent {
+		padding: 50px 0;
+	}
+	
+	.spaceRight {
+		margin-right: 15px;
+	}
+	
+	.footerImage {
+		width: 250px;
+	}
+	
+	.box {
+		border: 1px solid white;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	.col-md-4 {
+		margin-bottom: 30px;
+	}
+	
+	.btn-lg {
+		background-color: #55BE47;
+		xcolor: #333333;
+		font-weight: bolder;
+		border: 3px solid #343434;
+		border: 3px solid gray;
+	}
+	
+	.btn-lg:hover {
+		background-color: #FFCB08;
+	}	
+	
+	.col-md-4 a img {
+		width: 100%;
+		max-width: 400px; 
+	}
+	
+	.promoLabel {
+	}
+	
+	.promoCode {
+		font-weight: bold;
+		color: black;
+	}
+	
+	</style>
+		
+</head>
+
+<body>
+
+<!----------------------------------------------------------------->	
+
+<div class="container" id="topContainer">
+
+	<div id="topRow" class="row">
+	
+		<div class="xcol-md-6 xcol-md-offset-3 header">
+		
+			<h1 class="marginTop">What will you learn in 2016?</h1>
+		
+			<h2 class="marginTop2">Take an online course for just $15!</h2>
+		
+			<div style="padding-bottom: 5px;" class="marginTop2">
+				<a class="btn btn-primary btn-lg" target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.81&type=3&subid=0"><span>Get Started Now!</span></a>
+			</div>
+				
+			<h2 class="marginTop2 promoLabel">Redeem Coupon Code: <span class="promoCode">LETSGO2016</span></h2>
+		</div>
+		
+	</div>
+
+</div>
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+
+<div id="section2">
+<div class="container contentContainer" >
+
+	<div class="row center">
+		<h2 class="center title">Top Online Courses</h2>
+	</div>
+	
+	<div class="row center">
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.45&subid=0&type=4"><IMG border="0"   alt="Learn about Technology Today!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.45&subid=0&type=4&gridnum=13"></a>			
+		</div>
+		
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.46&subid=0&type=4"><IMG border="0"   alt="Learn about language today!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.46&subid=0&type=4&gridnum=13"></a>		
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.60&subid=0&type=4"><IMG border="0"   alt="Take online Yoga courses today!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.60&subid=0&type=4&gridnum=13"></a>
+		</div>
+		
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.186&subid=0&type=4"><IMG border="0"   alt="Learn to make a mobile app!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.186&subid=0&type=4&gridnum=13"></a>		
+		</div>
+				
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.42&subid=0&type=4"><IMG border="0"   alt="Save on Photography Courses!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.42&subid=0&type=4&gridnum=13"></a>
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.43&subid=0&type=4"><IMG border="0"   alt="Learn Finance Now!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.43&subid=0&type=4&gridnum=13"></a>		
+		</div>
+	</div>	
+	
+</div>
+</div>
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+
+<div id="section3">
+<div class="container contentContainer" id="">
+
+
+	<div class="row center">
+		<h2 class="center title">Top Categories</h2>
+	</div>
+	
+	<div class="row center">
+	
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.241&subid=0&type=4"><IMG border="0"   alt="Udemy" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.241&subid=0&type=4&gridnum=13"></a>
+		</div>
+		
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.245&subid=0&type=4"><IMG border="0"   alt="Udemy" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.245&subid=0&type=4&gridnum=13"></a>		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.275&subid=0&type=4"><IMG border="0"   alt="Top Courses in Music 300x250" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.275&subid=0&type=4&gridnum=13"></a>
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.237&subid=0&type=4"><IMG border="0"   alt="Udemy" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.237&subid=0&type=4&gridnum=13"></a>
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.261&subid=0&type=4"><IMG border="0"   alt="Top Courses in Health & Fitness 300x250" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.261&subid=0&type=4&gridnum=13"></a>		
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-6">
+<a target="_blank" href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.249&subid=0&type=4"><IMG border="0"   alt="Udemy" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.249&subid=0&type=4&gridnum=13"></a>
+		</div>
+	
+	</div>
+
+<!--
+
+<a href="http://click.linksynergy.com/fs-bin/click?id=OnHHshhafWM&offerid=323058.49&subid=0&type=4"><IMG border="0"   alt="Learn Excel today!" src="http://ad.linksynergy.com/fs-bin/show?id=OnHHshhafWM&bids=323058.49&subid=0&type=4&gridnum=13"></a>
+
+-->
+
+</div>
+</div>
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+
+<div class="container-fluid" id="footer">
+	<div id="footerContent" class="row center">
+		<p class="center"><img class="footerImage" src="logo-footer.png" /></p>
+		<!-- p class="lead center">Don&#39;t Mess With Texas</p -->
+	</div>
+</div>
+
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	<script>
+	
+	$(document).ready(function(){
+		//resize();
+	});
+	
+	$(window).resize(function(){
+		//resize();
+	});
+	
+	function resize() {
+		var winHeight = $(window).height() - 100;
+		var navHeight = $(".navbar").height();
+		
+		$("#topContainer").css("min-height", winHeight - navHeight);	
+		$("#topContainer").css("top", navHeight);
+	}
+	
+	</script>
+	
+  </body>
+</html>
